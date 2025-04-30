@@ -1,1 +1,2 @@
-git checkout -b improve-input
+git add odd_even.c
+git commit -m "Improved input handling"
