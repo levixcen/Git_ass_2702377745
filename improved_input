@@ -1,2 +1,5 @@
 git add odd_even.c
 git commit -m "Improved input handling"
+git checkout main           # Switch to main branch
+git merge improve-input    # Bring your changes over
+git push origin main       # Send updates to GitHub
