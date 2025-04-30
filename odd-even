@@ -2,14 +2,11 @@
 
 int main() {
     int angka;
-    printf(" ");
-    scanf("%d", &angka);
-
-    if (angka % 2 == 0) {
-        printf("EVEN\n");
-    } else {
-        printf("ODD\n");
+    printf("Masukkan angka: "); //fixed
+    if (scanf("%d", &angka) != 1) {  //cek input 
+        printf("Error: Not a number!\n");
+        return 1;
     }
-
+    printf(angka % 2 == 0 ? "EVEN\n" : "ODD\n"); //ubah code
     return 0;
 }
